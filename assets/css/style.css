@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap");
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+* {
+	font-family: "Space Grotesk", sans-serif;
+	font-weight: 400;
+	color: #fff;
+	box-sizing: border-box;
+	transition: all 0.5s cubic-bezier(0.57, -0.01, 0.21, 0.89);
+	text-decoration: none;
+}
+body {
+	background: #131417;
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+.nav {
+	background: #2c3236;
+	margin: 2rem;
+	padding: 1rem 1.5rem;
+	border-radius: 1.5rem;
+	border: 0.3rem solid #050505;
+	box-shadow: 0.25rem 0.25rem 0rem #050505;
+}
+.nav .right {
+	float: right;
+}
+.sidebar {
+	height: 80vh;
+	width: 40vw;
+	background: #2c3236;
+	margin-left: 2rem;
+	float: left;
+	border-radius: 1.5rem;
+	border: 0.3rem solid #050505;
+	box-shadow: 0.25rem 0.25rem 0rem #050505;
+	margin-top: -1rem;
+}
+.code-preview {
+	height: 80vh;
+	width: 52vw;
+	background: #2c3236;
+	margin-right: 2rem;
+	float: right;
+	border-radius: 1.5rem;
+	border: 0.3rem solid #050505;
+	box-shadow: 0.25rem 0.25rem 0rem #050505;
+	margin-top: -1rem;
+}
