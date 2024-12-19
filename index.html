@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar Creator</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap">
 </head>
+
 <body>
     <div class="nav">
-        Navbar
+        Navbar Creator
         <div class="right">
-            <a href="">
+            <a href="https://github.com" target="_blank">
                 <i class='bx bxl-github'></i>
             </a>
         </div>
     </div>
     <div class="sidebar">
-    
+        <h2>Customize Navbar</h2>
+        <label for="navbar-bg">Navbar Background:</label>
+        <input type="color" id="navbar-bg" value="#2c3236">
+
+        <label for="link-color">Link Color:</label>
+        <input type="color" id="link-color" value="#ffffff">
+
+        <label for="border-radius">Border Radius:</label>
+        <input type="range" id="border-radius" min="0" max="50" value="15">
+
+        <label for="shadow">Shadow Intensity:</label>
+        <input type="range" id="shadow" min="0" max="20" value="5">
+
+        <button id="download-code">Download Code</button>
     </div>
     <div class="code-preview">
-    
+        <h2>Live Preview</h2>
+        <div id="preview-navbar" class="nav">
+            <span>Navbar</span>
+            <div class="right">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </div>
+        </div>
     </div>
 </body>
+<script defer src="assets/js/script.js"></script>
+
 </html>
